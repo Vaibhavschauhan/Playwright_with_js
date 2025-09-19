@@ -16,6 +16,7 @@ export default defineConfig({
     screenshot: 'on',
     trace: 'on',
     headless: false,
+    video: 'on',
     
   },
 

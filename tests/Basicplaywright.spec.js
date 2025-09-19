@@ -11,7 +11,7 @@ test('First PW test', async ({browser})=>
 
 test('Mini project PW', async ({page})=>
 {   
-    await page.pause();
+    // await page.pause();
     const email = "anshika@gmail.com";
     const pass = "Iamking@000";
     const products = page.locator('.card-body');
