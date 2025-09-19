@@ -4,7 +4,7 @@ class homepage{
         this.productselect= page.getByRole('link', { name: 'Samsung galaxy s6' });
         this.addcart = page.locator('text=Add to cart');
         this.cartbtn = page.locator('#cartur');
-        this.placeorderbtn = page.locator('.btn btn-success');
+        this.placeorderbtn = page.locator("//button[@class='btn btn-success']");
         this.nametf= page.locator('#name');
         this.countrytf= page.locator('#country');
         this.citytf= page.locator('#city');
