@@ -2,6 +2,8 @@ const {test, expect} = require('@playwright/test');
 const { asyncWrapProviders } = require('async_hooks');
 import { homepage } from './POM/homepage';
 
+// const dataset= JSON.parse(JSON.stringify(require('./TestData/UserData.json')));
+
 test('Demo Blaze', async ({browser})=>
 {
     
