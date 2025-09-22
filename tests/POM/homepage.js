@@ -11,6 +11,8 @@ class homepage{
         this.cardtf= page.locator('#card');
         this.monthtf= page.locator('#month');
         this.yeartf= page.locator('#year');
+
+        
     }
 
 async productaddcart(nametf,countrytf,citytf,cardtf,monthtf,yeartf){
