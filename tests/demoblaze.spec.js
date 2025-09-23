@@ -10,13 +10,14 @@ test('Demo Blaze', async ({browser})=>
     const context= await browser.newContext();
     const page = await context.newPage();
     await page.pause();
+    const hp = new homepage(page);
     const nametf = 'Vaibhav';
     const countrytf = 'India';
     const cardtf ='123456789012';
     const citytf='Kanpur';
     const monthtf='June';
     const yeartf='2004';
-    const hp = new homepage(page);
+    // const hp = new homepage(page);
     
     await page.goto('https://demoblaze.com/index.html');
     // await page.getByRole('link', { name: 'Samsung galaxy s6' }).click();
